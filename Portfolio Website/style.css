@@ -8,8 +8,6 @@
 
 body {
   background-color: #2a333b;
-  font-family: "Assistant", serif;
-  font-weight: 400;
 }
 
 /* Designing navigation bar */
@@ -18,14 +16,15 @@ nav {
   background-color: #00c4a7;
   text-align: center;
   padding: 20px 0 20px;
+  font-family: "Assistant", serif;
+  font-weight: 400;
 }
 
 nav li {
   display: inline;
-  font-size: 26px;
+  font-size: 35px;
   font-weight: 300;
   margin-left: 200px;
-  /* border: 1px solid; */
 }
 
 nav li a {
