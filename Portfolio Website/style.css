@@ -12,6 +12,7 @@ body {
   font-weight: 400;
 }
 
+/* Designing navigation bar */
 nav {
   margin-top: 320px;
   background-color: #00c4a7;
@@ -23,7 +24,8 @@ nav li {
   display: inline;
   font-size: 26px;
   font-weight: 300;
-  margin-right: 80px;
+  margin-left: 200px;
+  /* border: 1px solid; */
 }
 
 nav li a {
@@ -36,11 +38,20 @@ nav li:first-child a {
   color: aliceblue;
 }
 
+/* designing portfolio image section */
+div.image-section img,
+h3 {
+  display: inline-block;
+}
+
 div.image-section {
   margin-top: 50px;
   text-align: center;
 }
 
-div.image-section img {
-  box-shadow: 2px 2px 5px gray;
+.image-section h3 {
+  font-family: "Times New Roman", Times, serif;
+  color: aliceblue;
+  font-size: 90px;
+  text-align: left;
 }
