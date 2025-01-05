@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -6,4 +8,30 @@
 
 body {
   background-color: #2a333b;
+  font-family: "Assistant", serif;
+  font-weight: 400;
+}
+
+nav {
+  margin-top: 320px;
+  background-color: #00c4a7;
+  text-align: center;
+  padding: 20px 0 20px;
+}
+
+nav li {
+  display: inline;
+  font-size: 26px;
+  font-weight: 400;
+  margin-right: 80px;
+}
+
+nav li a {
+  text-decoration: none;
+  color: #2a333b;
+}
+
+nav li:first-child a {
+  text-decoration: none;
+  color: aliceblue;
 }
