@@ -22,7 +22,7 @@ nav {
 nav li {
   display: inline;
   font-size: 26px;
-  font-weight: 400;
+  font-weight: 300;
   margin-right: 80px;
 }
 
@@ -34,4 +34,13 @@ nav li a {
 nav li:first-child a {
   text-decoration: none;
   color: aliceblue;
+}
+
+div.image-section {
+  margin-top: 50px;
+  text-align: center;
+}
+
+div.image-section img {
+  box-shadow: 2px 2px 5px gray;
 }
