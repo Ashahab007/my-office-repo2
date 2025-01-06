@@ -7,7 +7,7 @@ fieldset {
   border-radius: 10px;
 }
 
-textarea[placeholder="Write your stories"] {
+input[type="text"] textarea[placeholder="Write your stories"] {
   font-size: 20px;
 }
 
