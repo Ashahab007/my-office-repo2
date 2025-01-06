@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 20px;
+}
+
+nav {
+  background-color: blueviolet;
+  padding: 20px;
+  font-weight: 600;
+  /* text-align: center; */
+}
+nav > ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 5rem;
+  /* border: 1px solid; */
+}
+
+nav > ul > li {
+  list-style-type: none;
+  padding: 10px;
+  position: relative;
+}
+
+nav ul > li > a {
+  text-decoration: none;
+  color: black;
+}
+
+nav li:hover {
+  background-color: burlywood;
+}
+
+/* Creating nested dropdown menu  */
+
+.dropdown {
+  display: none;
+  position: absolute;
+  background-color: aliceblue;
+  padding: 20px;
+  margin-top: 10px;
+  margin-right: 100px;
+}
+
+.dropdown > li {
+  text-decoration: none;
+  list-style-type: none;
+  color: brown;
+  /* display: ; */
+}
+.dropdown > li > a {
+  color: brown;
+  /* display: ; */
+}
+
+nav li:hover .dropdown {
+  display: block;
+}
+
+header,
+article {
+  margin-top: 20px;
+  text-align: justify;
+}
+main {
+  padding: 10px;
+}
