@@ -1,0 +1,38 @@
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+fieldset {
+  border-radius: 10px;
+}
+
+textarea[placeholder="Write your stories"] {
+  font-size: 20px;
+}
+
+.participant-box-field {
+}
+
+label [for="fname"],
+[for="lname"],
+[for="age"] {
+  margin-left: 150px;
+}
+
+label #female {
+  margin-left: 70px;
+}
+
+select {
+  width: 150px;
+  height: 30px;
+}
+
+input[type="submit"] {
+  width: 100px;
+  margin-top: 5px;
+  padding: 10px;
+  font-weight: bolder;
+  background-color: antiquewhite;
+}

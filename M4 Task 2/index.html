@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Feedback Form</title>
+  </head>
+  <body>
+    <section>
+      <h1>Feedback Form</h1>
+      <form>
+        <fieldset>
+          <h3>Participant's Information</h3>
+          <label for="fname">
+            First Name:
+            <input type="text" name="fname" id="fname" />
+          </label>
+          <label for="lname">
+            Last Name:
+            <input type="text" name="lname" id="lname" />
+          </label>
+          <label for="age"
+            >Age:
+            <input type="text" name="age" id="age" />
+          </label>
+          <div id="radio-section">
+            <h5>Select Gender</h5>
+            <label for="gender-selection">
+              <input type="radio" name="gender" id="male" />Male
+              <input type="radio" name="gender" id="female" />Female
+            </label>
+          </div>
+        </fieldset>
+      </form>
+      <form>
+        <fieldset>
+          <label for="story"
+            ><h3>Your Stories</h3>
+            <textarea
+              name="story"
+              id="story"
+              cols="100"
+              rows="10"
+              placeholder="Write your stories"
+            ></textarea>
+          </label>
+        </fieldset>
+        <fieldset>
+          <h3>Rating</h3>
+          <select name="rating" id="rating">
+            <option value="satisfied">Satisfied</option>
+            <option value="average">Average</option>
+            <option value="good">Good</option>
+            <option value="execellent">Execellent</option>
+            <option value="outstanding">Outstanding</option>
+          </select>
+        </fieldset>
+        <input type="submit" value="Submit" />
+      </form>
+    </section>
+  </body>
+</html>

@@ -24,5 +24,26 @@
       <h3>I'm Ammar <br />A Web Developer</h3>
       <img src="./images/portfolio-image.jpg" alt="" srcset="" />
     </div>
+
+    <!-- Number validation -->
+    <!-- <div>
+      <label for="number">Input Number</label>
+      <input style="padding: 20px; font-size: larger" id="number" />
+      <button onclick="numberValidation()" type="button">Submit</button> -->
+    <!-- <p id="demo"></p> -->
+    <script>
+      function numberValidation() {
+        let x = document.getElementById("number").value;
+        let text;
+        if (isNaN(x) || (x > 5 && x < 10)) {
+          text = "Invalid Number";
+        } else {
+          text = "Result Submitted";
+        }
+        document.getElementById("demo").innerHTML = alert(text);
+        // document.getElementById("demo").innerHTML = text;
+      }
+    </script>
+    <!-- </div> -->
   </body>
 </html>
