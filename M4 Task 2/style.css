@@ -11,9 +11,6 @@ textarea[placeholder="Write your stories"] {
   font-size: 20px;
 }
 
-.participant-box-field {
-}
-
 label [for="fname"],
 [for="lname"],
 [for="age"] {
@@ -31,8 +28,13 @@ select {
 
 input[type="submit"] {
   width: 100px;
-  margin-top: 5px;
+  margin-top: 20px;
   padding: 10px;
   font-weight: bolder;
   background-color: antiquewhite;
+  border-radius: 8px;
+}
+
+#btn-section {
+  text-align: center;
 }
